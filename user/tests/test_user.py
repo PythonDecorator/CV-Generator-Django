@@ -5,8 +5,6 @@ Tests for the user API.
 from django.contrib.auth import get_user_model
 from django.test import TestCase, Client
 from django.urls import reverse
-from rest_framework import status
-from ecom_apps.user.forms import SignUpForm, LoginForm
 
 REGISTER_USER_URL = reverse('user:register')
 LOGIN_USER_URL = reverse('user:login')
